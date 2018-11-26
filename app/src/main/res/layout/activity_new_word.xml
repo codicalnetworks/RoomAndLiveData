@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codicalnetworks.roomdatabase.NewWord">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_word"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter a new word"
+        android:inputType="textAutoComplete"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_word"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+        android:id="@+id/button_save"/>
+
+</RelativeLayout>
